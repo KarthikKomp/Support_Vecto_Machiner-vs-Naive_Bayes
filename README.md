@@ -28,20 +28,35 @@ Output for the Code is:
 ####################################################
 
 no. of Chris training emails: 7936
+
 no. of Sara training emails: 7884
+
 training time for GaussianNB: 1.45 s
+
+
              precision    recall  f1-score   support
           0       1.00      0.95      0.97       893
           1       0.95      1.00      0.97       865
 avg / total       0.97      0.97      0.97      1758
+
+Confusion Matrix:
+
 [[849  44]
  [  3 862]]
+
 predicting time for GaussianNB: 0.259 s
+
+
 Accuracy score for Naive Bayes alg : , 0.97326507394766781
+
 training time for Linear: 165.879 s
+
 training time for rbf:  113.941 s
+
 predicting time for linear:  17.926 s
+
 predicting time for rbf:  11.678 s
+
 Number of emails sent by Chris: 877
 
 Explanation:
