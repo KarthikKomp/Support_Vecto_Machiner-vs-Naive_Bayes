@@ -4,12 +4,12 @@
 and find out which machine learning algorithm performs faster and accurate! 
 """
     
-### preprocess is a function written inside
-### dataset_preprocess.py
+preprocess is a function written inside
+dataset_preprocess.py
 
-### features_train and features_test are the features for the training
-### and testing data sets, respectively
-### labels_train and labels_test are item labels
+features_train and features_test are the features for the training
+and testing data sets, respectively
+labels_train and labels_test are item labels
  
  
 ### The dataset contains about 17000+ emails, so first take ###10% of the data to see which algorithm performs better.
@@ -17,30 +17,18 @@ and find out which machine learning algorithm performs faster and accurate!
 ####################################################
 
  
-### We measure time taken to fit
+We measure time taken to fit
 
-### Confusion matrix for GaussianNB
+Confusion matrix for GaussianNB
 
-### To count the number of emails sent by Chris
+To count the number of emails sent by Chris
  
-### Alternatively we can eliminate the steps that shrink the
-### original data set to
-###10% to see how many emails were
-### sent by Chris totally.
+Alternatively we can eliminate the steps that shrink the
+original data set to
+10% to see how many emails were
+sent by Chris totally. 
  
-chris_count = 0
- 
-for i in range(len(pred2)):
-    if pred2[i] == 1:
-        chris_count += 1
-print "Number of emails sent by Chris: ",chris_count
- 
-print "Accuracy of Linear Kernel: ", clf.score(features_test,labels_test)
- 
- 
-###################################################
- 
-Output for the Code is:
+###Output for the Code is:
  
 no. of Chris training emails: 7936
 
